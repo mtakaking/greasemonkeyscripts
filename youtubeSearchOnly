@@ -1,0 +1,10 @@
+// ==UserScript==
+// @name     YouTube Search Only
+// @version  1
+// @grant    none
+// @match https://www.youtube.com/
+// ==/UserScript==
+
+var bodyHTML = document.getElementById('page-manager');
+
+bodyHTML.innerHTML = '';
